@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LearnSphere - AI-Powered Educational Platform</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+        <nav id="sidebar" class="sidebar">
+            <div class="sidebar-header">
+                <h2>LearnSphere</h2>
+                <button id="sidebarToggle" class="sidebar-toggle" aria-label="Toggle navigation">&#9776;</button>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#ai-tutor" class="nav-item" title="AI Tutor Bots"><span class="icon">🤖</span><span class="nav-text">AI Tutor Bots</span></a></li>
+                <li><a href="#multilingual" class="nav-item" title="Multilingual Resources"><span class="icon">🌐</span><span class="nav-text">Multilingual Resources</span></a></li>
+                <li>
+                    <label for="language-select" class="nav-item" style="cursor:pointer;">
+                        <span class="icon">🗣️</span>
+                        <span class="nav-text">Language:</span>
+                        <select id="language-select" aria-label="Select Language" style="margin-left: 0.5rem; border-radius: 8px; padding: 0.2rem;">
+                            <option value="en" selected>English</option>
+                            <option value="es">Spanish</option>
+                            <option value="fr">French</option>
+                            <option value="hi">Hindi</option>
+                            <option value="zh">Chinese</option>
+                        </select>
+                    </label>
+                </li>
+                <li><a href="#local-history" class="nav-item" title="Local History & Heritage"><span class="icon">🏛️</span><span class="nav-text">Local History</span></a></li>
+                <li><a href="#quizzes" class="nav-item" title="Quizzes & Leaderboards"><span class="icon">📝</span><span class="nav-text">Quizzes</span></a></li>
+                <li><a href="#assignments" class="nav-item" title="Assignment Tools"><span class="icon">📚</span><span class="nav-text">Assignments</span></a></li>
+                <li><a href="#study-timers" class="nav-item" title="Study Timers"><span class="icon">⏲️</span><span class="nav-text">Study Timers</span></a></li>
+                <li><a href="#projects" class="nav-item" title="Project Resources"><span class="icon">📁</span><span class="nav-text">Projects</span></a></li>
+                <li><a href="#dashboard" class="nav-item" title="Dashboard & Reminders"><span class="icon">📒</span><span class="nav-text">Dashboard</span></a></li>
+                <li><a href="#cultural-exchange" class="nav-item" title="Cultural Exchange"><span class="icon">🤝</span><span class="nav-text">Cultural Exchange</span></a></li>
+                <li><a href="#ecommerce" class="nav-item" title="E-commerce"><span class="icon">🛒</span><span class="nav-text">E-commerce</span></a></li>
+            </ul>
+        </nav>
+        <main class="main-content">
+<section id="ai-tutor">
+    <h2>AI Tutor Bots</h2>
+    <p>Personalized AI-powered homework help and tutoring.</p>
+    <div class="chatbot-container">
+        <div id="chat-window" class="chat-window">
+            <div id="chat-messages" class="chat-messages"></div>
+        </div>
+        <form id="chat-form" class="chat-form">
+            <input type="text" id="chat-input" placeholder="Ask your homework question..." autocomplete="off" required />
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</section>
+<section id="multilingual">
+    <h2>Multilingual Learning Resources</h2>
+    <p>Access learning materials in multiple languages.</p>
+    <div class="learning-resources">
+        <h3>School Grades</h3>
+        <ul class="grade-list">
+            <li>LKG</li>
+            <li>UKG</li>
+            <li>1st Grade</li>
+            <li>2nd Grade</li>
+            <li>3rd Grade</li>
+            <li>4th Grade</li>
+            <li>5th Grade</li>
+            <li>6th Grade</li>
+            <li>7th Grade</li>
+            <li>8th Grade</li>
+            <li>9th Grade</li>
+            <li>10th Grade</li>
+        </ul>
+        <h3>PUC Courses</h3>
+        <ul class="course-list">
+            <li>Science</li>
+            <li>Commerce</li>
+            <li>Arts</li>
+        </ul>
+        <h3>Degree Courses</h3>
+        <ul class="course-list">
+            <li>Bachelor of Science (B.Sc)</li>
+            <li>Bachelor of Commerce (B.Com)</li>
+            <li>Bachelor of Arts (B.A)</li>
+            <li>Bachelor of Engineering (B.E)</li>
+            <li>Bachelor of Technology (B.Tech)</li>
+        </ul>
+        <h3>Postgraduate Courses</h3>
+        <ul class="course-list">
+            <li>Master of Science (M.Sc)</li>
+            <li>Master of Commerce (M.Com)</li>
+            <li>Master of Arts (M.A)</li>
+            <li>Master of Business Administration (MBA)</li>
+            <li>Master of Technology (M.Tech)</li>
+        </ul>
+    </div>
+</section>
+<section id="local-history">
+    <h2>Local History & Heritage Education</h2>
+    <p>Learn about your local culture and heritage.</p>
+    <div class="heritage-info">
+        <h3>Heritage Places of Karnataka</h3>
+        <p>Karnataka is rich in cultural heritage with numerous historical sites and monuments. Some notable heritage places include:</p>
+        <ul>
+            <li><strong>Hampi:</strong> A UNESCO World Heritage Site, known for its ruins of the Vijayanagara Empire.</li>
+            <li><strong>Mysore Palace:</strong> A magnificent palace and a major tourist attraction in Mysore.</li>
+            <li><strong>Badami Caves:</strong> Rock-cut cave temples famous for their architecture and sculptures.</li>
+            <li><strong>Belur and Halebidu:</strong> Renowned for their exquisite Hoysala architecture.</li>
+            <li><strong>Sravanabelagola:</strong> Famous for the giant monolithic statue of Gomateshwara Bahubali.</li>
+        </ul>
+        <h3>Other Heritage Places</h3>
+        <p>India and the world have many other heritage sites worth exploring:</p>
+        <ul>
+            <li><strong>Taj Mahal:</strong> Iconic white marble mausoleum in Agra, India.</li>
+            <li><strong>Ajanta and Ellora Caves:</strong> Ancient rock-cut caves with beautiful murals and sculptures.</li>
+            <li><strong>Khajuraho Temples:</strong> Famous for their intricate erotic sculptures.</li>
+            <li><strong>Great Wall of China:</strong> Historic fortification stretching across northern China.</li>
+            <li><strong>Machu Picchu:</strong> Ancient Incan city located in Peru.</li>
+        </ul>
+    </div>
+</section>
+<section id="quizzes">
+    <h2>Quizzes & Leaderboards</h2>
+    <p>Interactive quizzes with competitive leaderboards.</p>
+    <div class="quiz-container">
+        <div id="quiz-question" class="quiz-question"></div>
+        <ul id="quiz-options" class="quiz-options"></ul>
+        <button id="next-question-btn" disabled>Next Question</button>
+        <div id="quiz-result" class="quiz-result"></div>
+    </div>
+    <div class="leaderboard-container">
+        <h3>Leaderboard</h3>
+        <ol id="leaderboard-list" class="leaderboard-list"></ol>
+    </div>
+</section>
+            <section id="assignments">
+                <h2>Assignment Tools</h2>
+                <p>Tools to manage and submit assignments efficiently.</p>
+            </section>
+<section id="study-timers">
+    <h2>Study Timers</h2>
+    <p>Timers to help you stay focused and manage study sessions.</p>
+    <div class="timer-container">
+        <div id="timer-display" class="timer-display">00:00:00</div>
+        <div class="timer-controls">
+            <button id="start-btn">Start</button>
+            <button id="pause-btn" disabled>Pause</button>
+            <button id="reset-btn" disabled>Reset</button>
+        </div>
+    </div>
+</section>
+<section id="projects">
+    <h2>Project Resources</h2>
+    <p>Resources and tools for managing projects.</p>
+    <div class="projects-container">
+        <form id="resource-form" class="resource-form">
+            <input type="text" id="resource-input" placeholder="Enter project resource name..." required />
+            <button type="submit">Add Resource</button>
+        </form>
+        <ul id="resource-list" class="resource-list"></ul>
+    </div>
+</section>
+<section id="dashboard">
+    <h2>Dashboard & Smart Reminders</h2>
+    <p>Notebook-style homework tracker and reminders to stay organized.</p>
+    <div class="dashboard-container">
+        <form id="task-form" class="task-form">
+            <input type="text" id="task-input" placeholder="Enter homework task..." required />
+            <input type="date" id="due-date" required />
+            <button type="submit">Add Task</button>
+        </form>
+        <ul id="task-list" class="task-list"></ul>
+    </div>
+</section>
+            <section id="cultural-exchange">
+                <h2>Cultural Exchange Programs</h2>
+                <p>Connect globally and share cultural experiences.</p>
+            </section>
+<section id="ecommerce">
+    <h2>E-commerce for Educational Materials</h2>
+    <p>Buy and sell educational resources and materials.</p>
+    <div class="ecommerce-container">
+        <div class="products">
+            <h3>Stationary Products</h3>
+            <div class="product-list" id="product-list">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+        </div>
+        <div class="cart">
+            <h3>Shopping Cart</h3>
+            <ul id="cart-items" class="cart-items"></ul>
+            <div class="cart-total">
+                Total: $<span id="cart-total">0.00</span>
+            </div>
+            <button id="checkout-btn" disabled>Checkout</button>
+        </div>
+    </div>
+</section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
